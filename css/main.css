@@ -31,7 +31,7 @@ ul{
     padding: 0;
     width: 100vw;
     height: 138px;
-    background: url(../images/header.png) repeat-x;
+    background: url(../images/header.png) no-repeat;
     z-index: 10;
 }
 .nav .logo{
