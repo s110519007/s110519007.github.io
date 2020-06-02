@@ -364,7 +364,7 @@
     body{
         width: 100vw;
         height: 110vh;
-        overflow-x: hidden;
+        overflow: hidden;
         overflow-y: scroll;
     }
     .container{
