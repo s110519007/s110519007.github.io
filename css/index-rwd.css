@@ -415,10 +415,11 @@
         font-size: 1em;
     }
     .rank{
-        width: 55%;
+        width: 100%;
     }
     .text{
-        padding: 4px 25px;
+        width: 500px;
+        padding: 4px 0;
         font-size: 1em;
     }
     .x-wrap{
