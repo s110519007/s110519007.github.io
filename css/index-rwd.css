@@ -361,12 +361,13 @@
 }
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px){
-    html,body{
-        width:100%; overflow:hidden;
+    body{
+        width: 100vw;
+        height: 100%;
+        overflow: hidden;
     }
     .container{
         position: absolute;
-        width: 100vw;
         height: 100%;
     }
     .nav{
