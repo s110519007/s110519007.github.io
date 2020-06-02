@@ -1,4 +1,7 @@
 @media screen and (max-width: 1650px){
+    .container{
+        height: 115vh;
+    }
     .nav{
         background-size: cover;
         height: 120px;
@@ -486,5 +489,17 @@
         width: 80%;
         left: 10%;
         padding-top: 25%;
+    }
+    .phone-wrap .light{
+        left: -100%;
+        bottom: 0.2%;
+        width: 300%;
+        padding-top: 116%;
+    }
+    .phone-wrap .light-spot{
+        left: -50%;
+        width: 200%;
+        padding-top: 100%;
+        /* background-color: #123; */
     }
 }
