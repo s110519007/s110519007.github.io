@@ -1,6 +1,6 @@
 html{
-    position: absolute;;
-    height:100%;
+    position:fixed;
+    height:110vh;
     width:100vw;
  }
 body{
