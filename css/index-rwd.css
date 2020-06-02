@@ -1,0 +1,528 @@
+@media screen and (max-width: 1650px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .nav{
+        background-size: cover;
+        height: 120px;
+    }
+    .nav .logo{
+        width: 30%;
+        background-size: contain;
+    }
+    .nav-list{
+        display: none;
+    }
+    .fb{
+        display: none;
+    }
+    .ham{
+        display: block;
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        width: 50px;
+        height: 50px;
+        background: url(../images/menu.svg) no-repeat;
+        background-size: contain;
+        z-index: 15;
+        transition: all .3s;
+    }
+    .ham:hover{
+        background: url(../images/menu-hover.svg) no-repeat;
+        background-size: contain;
+    }
+    .side{
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 20%;
+        height: 100vh;
+        background-color: #5ecdff;
+        z-index: 12;
+    }
+    .side .x{
+        margin: 30px 0 0 30px;
+        width: 30px;
+        height: 30px;
+        background: url(../images/btn-x.svg) center center no-repeat;
+        background-size: contain;
+        transition: all .3s;
+    }
+    .side .x:hover{
+        background: url(../images/x-hover.svg) center center no-repeat;
+        background-size: contain;
+    }
+    .ham-wrap{
+        margin-top: 20%;
+        display: block;
+    }
+    .ham-list{
+        margin: 8% auto;
+        width: 100%;
+        font-size: 1.625em;
+        text-align: center;
+    }
+    .ham-list a{
+        padding: 10px;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        transition: all .3s;
+    }
+    .ham-list a:hover{
+        background: url(../images/header-hover.png) center center no-repeat;
+        background-size: contain;
+    }
+    .ham-list .drop-down{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 5px;
+        width: 120px;
+        overflow: hidden;
+    }
+    .ham-list .drop-down a{
+        color: #007bbb;
+        text-align: center;
+        font-size: 20px;
+        line-height: 20px;
+        border-bottom: 2px solid #007bbb;
+        transition: all .3s;
+    }
+    .ham-list .drop-down a:hover{
+        color: #fff;
+        background-color: #204267;
+        background-image: none;
+    }
+    .start-wrap:hover .start{
+        top: 25px;
+    }
+    .start-wrap{
+        height: 7.5%;
+        border-radius: 1em;
+    }
+    .start-wrap{
+        height: 7.5%;
+        border-radius: 1.625em;
+    }
+    .start-wrap .start{
+        top: 20px;
+    }
+    .start-wrap .start-arrow{
+        top: 25px;
+    }
+}
+/* lg - Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1200px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
+    .nav .logo{
+        min-width: 40%;
+    }
+    .ham{
+        width: 40px;
+        height: 40px;
+    }
+    .rank-title{
+        width: 12%;
+    }
+    .rank{
+        width: 87%;
+    }
+    .x-wrap{
+        width: 10%;
+    }
+    .btn-x{
+        margin-top: 10%;
+    }
+    .start-wrap:hover .start{
+        top: 20px;
+    }
+    .start-wrap{
+        height: 7.5%;
+        border-radius: 1em;
+    }
+    .start-wrap{
+        height: 7.5%;
+        border-radius: 1em;
+    }
+    .start-wrap .start{
+        top: 15px;
+    }
+    .start-wrap .start-arrow{
+        top: 20px;
+    }
+}
+/* md - Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
+    .nav{
+        height: 100px;
+    }
+    .nav .logo{
+        margin: 10px 0 10px 15px;
+        min-width: 55%;
+    }
+    .ham{
+        top: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .ham-list{
+        margin: 8% 0;
+        margin-left: -10px;
+        width: 100%;
+        font-size: 1.2em;
+    }
+    .ham-list .drop-down{
+        width: 120px;
+    }
+    .ham-list .drop-down a{
+        font-size: 1em;
+        line-height: 1em;
+    }
+    .side .x{
+        margin: 20px 0 0 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .rank-title{
+        width: 12%;
+        font-size: 1em;
+    }
+    .rank{
+        width: 84%;
+    }
+    .text{
+        font-size: 1em;
+    }
+    .x-wrap{
+        width: 10%;
+    }
+    .btn-x{
+        margin-top: 10%;
+    }
+    .paper-wrap .paper{
+        top: 15%;
+        left: -10%;
+        width: 120%;
+        padding-bottom: 40%;
+    }
+    .paper-wrap .flowers{
+        top: 35%;
+        left: -10%;
+        width: 120%;
+        padding-bottom: 10%;
+    }
+    .paper-wrap .ribbon{
+        top: 20%;
+        left: -10%;
+        width: 120%;
+        padding-bottom: 35%;
+    }
+    .paper-wrap .eggs{
+        top: 10%;
+        left: -10%;
+        width: 120%;
+        padding-bottom: 45%;
+    }
+    .title-wrap .dog{
+        padding-bottom: 15%;
+    }
+    .title-wrap{
+        top: 25%;
+        width: 120%;
+        left: -10%;
+    }
+    .start-wrap:hover .start{
+        top: 20px;
+    }
+    .start-wrap{
+        height: 7.5%;
+        border-radius: 1em;
+    }
+    .start-wrap .start{
+        top: 15px;
+    }
+    .start-wrap .start-arrow{
+        top: 20px;
+    }
+}
+/* sm - Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
+    .nav{
+        height: 90px;
+    }
+    .nav .logo{
+        margin: 7px 0 7px 13px;
+        min-width: 100%;
+    }
+    .ham{
+        top: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .side{
+        width: 25%;
+    }
+    .side .x{
+        margin-top: 1.5%;
+        margin-left: 1.5%;
+        font-size: 40px;
+        width: 40px;
+    }
+    .ham-list{
+        margin: 8% 0;
+        margin-left: -10px;
+        width: 150%;
+        font-size: 1em;
+        text-align: left;
+    }
+    .ham-list .drop-down{
+        margin-left: -3px;
+        width: 100px;
+        padding: 0;
+    }
+    .ham-list .drop-down a{
+        font-size: 0.8em;
+        line-height: 14px;
+        border-bottom: 1.5px solid #007bbb;
+    }
+    .side .x{
+        margin: 20px 0 0 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .rank-wrap{
+        height: 30px;
+    }
+    .rank-title{
+        padding: 4px 25px;
+        width: 20%;
+        font-size: 1em;
+    }
+    .rank{
+        width: 70%;
+    }
+    .text{
+        padding: 4px 25px;
+        font-size: 1em;
+    }
+    .x-wrap{
+        width: 10%;
+    }
+    .btn-x{
+        margin-top: 10%;
+    }
+    .paper-wrap .paper{
+        top: 20%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 50%;
+    }
+    .paper-wrap .flowers{
+        top: 38%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 10%;
+    }
+    .paper-wrap .ribbon{
+        top: 25%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 35%;
+    }
+    .paper-wrap .eggs{
+        top: 15%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 45%;
+    }
+    .title-wrap .dog{
+        width: 20.2%;
+        padding-bottom: 17%;
+    }
+    .title-wrap{
+        top: 25%;
+        width: 150%;
+        left: -25%;
+    }
+    .start-wrap:hover .start{
+        top: 20px;
+    }
+    .start-wrap{
+        height: 7.5%;
+        border-radius: 1em;
+    }
+    .start-wrap .start{
+        top: 15px;
+    }
+    .start-wrap .start-arrow{
+        top: 20px;
+    }
+}
+/* xs - Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
+    .nav{
+        height: 90px;
+    }
+    .nav .logo{
+        margin: 7px 0 7px 13px;
+        min-width: 75%;
+    }
+    .ham{
+        top: 15px;
+        right: 15px;
+        width: 40px;
+        height: 40px;
+    }
+    .side{
+        width: 100%;
+    }
+    .side .x{
+        margin-top: 1.5%;
+        margin-left: 1.5%;
+        font-size: 30px;
+        width: 30px;
+    }
+    .ham-list{
+        margin: 8% 0;
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .ham-list .drop-down{
+        padding: 0;
+        width: 150px;
+    }
+    .ham-list .drop-down a{
+        font-size: 1em;
+        line-height: 1em;
+        border-bottom: 1.5px solid #007bbb;
+    }
+    .side .x{
+        margin: 30px 0 0 30px;
+        width: 30px;
+        height: 30px;
+    }
+    .rank-wrap{
+        height: 30px;
+    }
+    .rank-title{
+        padding: 4px 20px;
+        width: 30%;
+        font-size: 1em;
+    }
+    .rank{
+        width: 55%;
+    }
+    .text{
+        padding: 4px 25px;
+        font-size: 1em;
+    }
+    .x-wrap{
+        width: 10%;
+    }
+    .btn-x{
+        margin-top: 10%;
+    }
+    .paper-wrap .paper{
+        top: 25%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 50%;
+    }
+    .paper-wrap .flowers{
+        top: 43%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 10%;
+    }
+    .paper-wrap .ribbon{
+        top: 30%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 35%;
+    }
+    .paper-wrap .eggs{
+        top: 20%;
+        left: -25%;
+        width: 150%;
+        padding-bottom: 45%;
+    }
+    .title-wrap .dog{
+        width: 20.2%;
+        padding-bottom: 17%;
+    }
+    .title-wrap{
+        top: 30%;
+        width: 150%;
+        left: -25%;
+    }
+    .start-wrap{
+        width: 30%;
+        left: 35%;
+        margin-top: 5%;
+        height: 17%;
+        border-radius: 0.625em;
+    }
+    .start-wrap:hover .start{
+        top: 12px;
+    }
+    .start-wrap .start{
+        top: 9px;
+    }
+    .start-wrap .start-arrow{
+        top: 12px;
+    }
+    .city-wrap .w{
+        padding-top: 50%;
+    }
+    .city-wrap .big-cloud{
+        padding-top: 50%;
+    }
+    .city-wrap .city{
+        padding-top: 33%;
+    }
+    .phone-wrap .phone{
+        width: 80%;
+        left: 10%;
+        padding-top: 25%;
+    }
+}
