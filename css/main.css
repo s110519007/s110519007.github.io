@@ -6,9 +6,8 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: Microsoft JhengHei;
-    background-color: #123;
 }
 a{
     text-decoration: none;
@@ -17,10 +16,12 @@ ul{
     list-style: none;
 }
 .container{
+    position: absolute;
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
     /* background-color: #54a4db; */
     /* background-image: url(../images/BG-index.jpg); */
 }
