@@ -1,4 +1,9 @@
 @media screen and (max-width: 1650px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
     .nav{
         background-size: cover;
         height: 120px;
@@ -113,6 +118,15 @@
 }
 /* lg - Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1200px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
     .nav .logo{
         min-width: 40%;
     }
@@ -152,6 +166,14 @@
 }
 /* md - Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
     .nav{
         height: 100px;
     }
@@ -247,6 +269,14 @@
 }
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px){
+    body{
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .container{
+        height: 100%;
+    }
     .nav{
         height: 90px;
     }
@@ -362,7 +392,9 @@
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px){
     body{
-        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
     }
     .container{
         position: absolute;
@@ -467,7 +499,7 @@
     .start-wrap{
         width: 30%;
         left: 35%;
-        margin-top: 5%;
+        margin-top: 3%;
         height: 17%;
         border-radius: 0.625em;
     }
