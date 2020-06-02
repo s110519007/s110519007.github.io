@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    width: 50vw;
+    width: 100vw;
     height: 0;
     overflow-x: hidden;
     font-family: Microsoft JhengHei;
@@ -19,7 +19,7 @@ ul{
     display: block;
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 115%;
     background-color: #54a4db;
     background-image: url(../images/BG-index.jpg);
