@@ -17,14 +17,6 @@
         transform: translateX(-100vw);
     }
 }
-@keyframes city{
-    0%{
-        transform: translateX(-100vw);
-    }
-    100%{
-        transform: translateX(0);
-    }
-}
 @keyframes dog{
     0%{
         transform: scale(0.1) translateX(150%) translateY(100%);

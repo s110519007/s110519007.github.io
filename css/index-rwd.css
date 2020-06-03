@@ -18,29 +18,6 @@
     }
     .ham{
         display: block;
-        position: fixed;
-        top: 25px;
-        right: 25px;
-        width: 50px;
-        height: 50px;
-        background: url(../images/menu.svg) no-repeat;
-        background-size: contain;
-        z-index: 15;
-        transition: all .3s;
-    }
-    .ham:hover{
-        background: url(../images/menu-hover.svg) no-repeat;
-        background-size: contain;
-    }
-    .side{
-        display: none;
-        position: fixed;
-        right: 0;
-        top: 0;
-        width: 20%;
-        height: 100vh;
-        background-color: #5ecdff;
-        z-index: 12;
     }
     .side .x{
         margin: 30px 0 0 30px;
@@ -155,6 +132,21 @@
 }
 /* md - Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
+    body{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .container{
+        position: absolute;
+        width: 100vw;
+        overflow: hidden;
+    }
     .nav{
         height: 100px;
     }
@@ -181,13 +173,17 @@
         font-size: 1em;
         line-height: 1em;
     }
+    .ham-fb{
+        width: 30px;
+        height: 30px;
+    }
     .side .x{
         margin: 20px 0 0 20px;
         width: 20px;
         height: 20px;
     }
     .rank-title{
-        width: 12%;
+        width: 13%;
         font-size: 1em;
     }
     .rank{
@@ -210,20 +206,17 @@
     }
     .paper-wrap .flowers{
         top: 35%;
-        left: -10%;
-        width: 120%;
+        width: 100%;
         padding-bottom: 10%;
     }
     .paper-wrap .ribbon{
         top: 20%;
-        left: -10%;
-        width: 120%;
+        width: 100%;
         padding-bottom: 35%;
     }
     .paper-wrap .eggs{
         top: 10%;
-        left: -10%;
-        width: 120%;
+        width: 100%;
         padding-bottom: 45%;
     }
     .title-wrap .dog{
@@ -247,9 +240,34 @@
     .start-wrap .start-arrow{
         top: 20px;
     }
+    .city-wrap{
+        bottom: 30px;
+    }
+    .phone-wrap{
+        bottom: 30px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
 /* sm - Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px){
+    body{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .container{
+        position: absolute;
+        width: 100vw;
+        overflow: hidden;
+    }
     .nav{
         height: 90px;
     }
@@ -289,6 +307,11 @@
         line-height: 14px;
         border-bottom: 1.5px solid #007bbb;
     }
+    .ham-fb{
+        left: 35%;
+        width: 20px;
+        height: 20px;
+    }
     .side .x{
         margin: 20px 0 0 20px;
         width: 20px;
@@ -323,20 +346,17 @@
     }
     .paper-wrap .flowers{
         top: 38%;
-        left: -25%;
-        width: 150%;
+        width: 100%;
         padding-bottom: 10%;
     }
     .paper-wrap .ribbon{
         top: 25%;
-        left: -25%;
-        width: 150%;
+        width: 100%;
         padding-bottom: 35%;
     }
     .paper-wrap .eggs{
         top: 15%;
-        left: -25%;
-        width: 150%;
+        width: 100%;
         padding-bottom: 45%;
     }
     .title-wrap .dog{
@@ -361,9 +381,34 @@
     .start-wrap .start-arrow{
         top: 20px;
     }
+    .city-wrap{
+        bottom: 30px;
+    }
+    .phone-wrap{
+        bottom: 30px;
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
+    }
 }
 /* xs - Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px){
+    body{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .container{
+        position: absolute;
+        width: 100vw;
+        overflow: hidden;
+    }
     .nav{
         height: 90px;
     }
@@ -386,6 +431,9 @@
         font-size: 30px;
         width: 30px;
     }
+    .ham-wrap{
+        margin-top: 5%;
+    }
     .ham-list{
         margin: 8% 0;
         width: 100%;
@@ -401,32 +449,39 @@
         line-height: 1em;
         border-bottom: 1.5px solid #007bbb;
     }
+    .ham-fb{
+        width: 40px;
+        height: 40px;
+        left: 40%;
+    }
     .side .x{
         margin: 30px 0 0 30px;
         width: 30px;
         height: 30px;
     }
     .rank-wrap{
-        height: 30px;
+        height: 35px;
     }
     .rank-title{
-        padding: 4px 20px;
-        width: 30%;
-        font-size: 1em;
+        padding: 10px 10px;
+        width: 50%;
+        font-size: 0.8em;
     }
     .rank{
         width: 100%;
     }
     .text{
         width: 500px;
-        padding: 4px 0;
-        font-size: 1em;
+        padding: 10px 0;
+        font-size: 0.8em;
     }
     .x-wrap{
-        width: 10%;
+        width: 20%;
     }
     .btn-x{
-        margin-top: 10%;
+        width: 50%;
+        height: 50%;
+        margin-top: 15%;
     }
     .paper-wrap .paper{
         top: 25%;
@@ -435,9 +490,9 @@
         padding-bottom: 50%;
     }
     .paper-wrap .flowers{
-        top: 43%;
-        left: -25%;
-        width: 150%;
+        top: 38%;
+        left: -50%;
+        width: 200%;
         padding-bottom: 10%;
     }
     .paper-wrap .ribbon{
@@ -447,9 +502,8 @@
         padding-bottom: 35%;
     }
     .paper-wrap .eggs{
-        top: 20%;
-        left: -25%;
-        width: 150%;
+        top: 22%;
+        width: 100%;
         padding-bottom: 45%;
     }
     .title-wrap .dog{
@@ -462,11 +516,11 @@
         left: -25%;
     }
     .start-wrap{
-        width: 30%;
-        left: 35%;
-        margin-top: 3%;
-        height: 17%;
-        border-radius: 0.625em;
+        width: 35%;
+        left: 32.5%;
+        margin-top: 5%;
+        height: 20%;
+        border-radius: 1em;
     }
     .start-wrap:hover .start{
         top: 12px;
@@ -477,6 +531,9 @@
     .start-wrap .start-arrow{
         top: 12px;
     }
+    .city-wrap{
+        bottom: 30px;
+    }
     .city-wrap .w{
         padding-top: 50%;
     }
@@ -485,6 +542,9 @@
     }
     .city-wrap .city{
         padding-top: 33%;
+    }
+    .phone-wrap{
+        bottom: 30px;
     }
     .phone-wrap .phone{
         width: 80%;
@@ -501,6 +561,9 @@
         left: -50%;
         width: 200%;
         padding-top: 100%;
-        /* background-color: #123; */
+    }
+    .footer{
+        position: absolute;
+        bottom: 0;
     }
 }

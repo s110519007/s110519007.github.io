@@ -10,16 +10,6 @@ $(document).ready(function () {
   $(".btn-x").click(function () { 
     $(".rank-wrap").hide();
   });
-  $("#d-start").hover(function () {
-    $(".tooltip-top").css({
-      borderColor: "transparent transparent #204267 transparent"
-    });
-  }, function(){
-      $(".tooltip-top").css({
-        borderColor: "transparent transparent #fff transparent"
-      });
-    }
-  );
   $(".d-start").hover(function () {
     $(".tooltip-top").css({
       borderColor: "transparent transparent #204267 transparent"
@@ -30,29 +20,16 @@ $(document).ready(function () {
       });
     }
   );
-  $("#nl2").hover(function () {
-      $("#drop1").show();
+  $(".nav2").hover(function () {
+      $(".drop1").fadeIn();
     }, function(){
-      $("#drop1").hide();
+      $(".drop1").fadeOut();
     }
   );
-  $("#nl3").hover(function () {
-    $("#drop2").show();
-  }, function(){
-    $("#drop2").hide();
-  }
+  $(".nav3").hover(function () {
+      $(".drop2").fadeIn();
+    }, function(){
+      $(".drop2").fadeOut();
+    }
   );
-  $("#hl2").hover(function () {
-    $("#h-drop1").show();
-  }, function(){
-    $("#h-drop1").hide();
-  }
-);
-$("#hl3").hover(function () {
-  $("#h-drop2").show();
-}, function(){
-  $("#h-drop2").hide();
-}
-);
-  
 });
